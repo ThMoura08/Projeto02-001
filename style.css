@@ -39,3 +39,44 @@ nav a{
 nav a:hover{
     color: orange;
 }
+main{
+    padding: 20px;
+}
+section h2{
+    color: #102a43;
+    background-color: 2px solid #102a43;
+    padding-bottom: 5px;
+}
+.produtos{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 20px;
+    justify-content: center;
+    text-align: center;
+}
+.produto{
+    background-color: white;
+    padding: 18px;
+    border-radius: 18px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.produto img{
+    width: 350px;
+    border-radius: 4px;
+}
+.produto h4{
+    margin: 10px 0 6px;
+    font-size: 19px;
+}
+.produto p{
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 10px;
+    color: orange;
+}
+#preco{
+    font-size: 18px;
+    color: black;
+    font-weight: bold;
+}
